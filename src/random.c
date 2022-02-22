@@ -53,3 +53,8 @@ int main(int argc, char *argv[])
 
   return EXIT_SUCCESS;
 }
+===========================================
+  int random_int(int max)
+{
+  return rand() % max;
+}
